@@ -4,7 +4,7 @@ import random
 
 f = open("urls.txt")
 lines = f.readlines()
-num = 13 # quanti da aprire
+num = 13 # how many to open
 random.shuffle(lines)
 for i in range(num):
     url = lines[i]
